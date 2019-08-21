@@ -4,18 +4,7 @@ namespace backend\models;
 
 use Yii;
 
-/**
- * This is the model class for table "department".
- *
- * @property int $id
- * @property string $name
- * @property int $size
- * @property int $supervisor_id employee id
- * @property string $created_at
- * @property string $updated_at
- *
- * @property Employee[] $employees
- */
+
 class Department extends \yii\db\ActiveRecord
 {
     /**

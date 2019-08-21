@@ -4,23 +4,7 @@ namespace backend\models;
 
 use Yii;
 
-/**
- * This is the model class for table "employee".
- *
- * @property int $id
- * @property string $salutation
- * @property string $first_name
- * @property string $last_name
- * @property int $gender
- * @property string $email
- * @property string $mobile
- * @property string $address
- * @property int $department_id
- * @property string $created_at
- * @property string $updated_at
- *
- * @property Department $department
- */
+
 class Employee extends \yii\db\ActiveRecord
 {
     /**
